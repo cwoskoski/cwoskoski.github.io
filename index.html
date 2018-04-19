@@ -3,8 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <title>Chad Woskoski</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/default.css">
 </head>
 <body>
 
+<header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Chad Woskoski</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <div id="work">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/sites/tracktech_th.png" alt="Tracktech">
+                    <div class="card-body">
+                        <h5 class="card-title">Tracktech
+                            <span class="badge badge-secondary">.NET</span>
+                            <span class="badge badge-secondary">C#</span>
+                            <span class="badge badge-secondary">MSSQL</span>
+                            <span class="badge badge-secondary">Azure</span>
+                        </h5>
+                        <p class="card-text">Large Application to manager Electronic Waste Shipments</p>
+                        <p class="card-text">I moved this very large application and all it's sub-applications to Azure,
+                            as well as it's 200GB database. I also added a number features: Notifications, Quick-Search,
+                            Change files to use Cloud Storage, New wizare like receiving process, Product Catalog, Box
+                            Program Receiving</p>
+                        <a href="#" class="btn btn-primary btn-block">View Larger</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="img/sites/mccormick_th.png" alt="Tracktech">
+                    <div class="card-body">
+                        <h5 class="card-title">Tracktech
+                            <span class="badge badge-secondary">PHP</span>
+                            <span class="badge badge-secondary">MySQL</span>
+                        </h5>
+                        <p class="card-text">Attorney Website</p>
+                        <p class="card-text">I built the Location, Practice Areas and Attorney's sections.</p>
+                        <a href="http://www.mccormickbarstow.com/index.php" target="_blank"
+                           class="btn btn-primary btn-block">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/sites/savemart_th.png" alt="Savemart">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Save Mart
+                            <span class="badge badge-secondary">PHP</span>
+                            <span class="badge badge-secondary">MySQL</span>
+                            <span class="badge badge-secondary">Zend Framework</span>
+                        </h5>
+                        <p class="card-text">Online cake and party platter ordering that sends the order to the
+                            store.</p>
+                        <p class="card-test">I built the entire system from scratch, it has been reskined since I left
+                            but it's still using the same backend.</p>
+                        <a href="https://www.savemart.com/cakes-platters?q-cakes-and-platters=#/?attribute_id=95&q=Cake&category_id%3D18063008603310000#%2F%3Fpage=1&pagesize=24&category_id=18063008603310000&include_display_only=0"
+                           target="_blank" class="btn btn-primary btn-block">Visit Site</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="img/sites/prekscholars_th.png" alt="Pre K Scholars">
+                    <div class="card-body">
+                        <h5 class="card-title">Pre K Scholars
+                            <span class="badge badge-secondary">Java</span>
+                            <span class="badge badge-secondary">Android</span>
+                            <span class="badge badge-secondary">Advanced Views</span>
+                        </h5>
+                        <p class="card-text">App for kids to learn to write letters and memory matching</p>
+                        <p class="card-text">I build the entire Android app.</p>
+                        <a href="#" class="btn btn-primary btn-block">View Larger</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/sites/ameriguard_th.png" alt="Ameriguard">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Ameriguard Apps
+                            <span class="badge badge-secondary">PHP</span>
+                            <span class="badge badge-secondary">RESTful API</span>
+                            <span class="badge badge-secondary">Objective-C</span>
+                            <span class="badge badge-secondary">Java</span>
+                            <span class="badge badge-secondary">Advanced Android Video</span>
+                            <span class="badge badge-secondary">Android</span>
+                            <span class="badge badge-secondary">MySql</span>
+                        </h5>
+                        <p class="card-text">The Ameriguard Apps are used by their clients and they can remotely ARM /
+                            DISARM their alarm as well as connect their video surveillance systems.</p>
+                        <p class="card-test">I build the backend API for the apps to connect to, the apps are just a
+                            client to a much smarter system with actually does all the work to arm and disarm the
+                            alarms. I also built the entire Android app and I have added features and fixes to the iOS
+                            app.</p>
+                        <a href="http://www.ameriguardsecurity.com/our-smartphone-app" target="_blank"
+                           class="btn btn-primary btn-block">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">&copy; 2018 Chad Woskoski</span>
+        <div class="pull-right">
+            <ul id="social">
+                <li><a target="_blank" href="https://www.linkedin.com/in/chadwoskoski"><i class="fa fa-linkedin"></i>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
